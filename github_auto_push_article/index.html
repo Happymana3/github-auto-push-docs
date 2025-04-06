@@ -1,0 +1,603 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://happymana3.github.io/github-auto-push-docs/github_auto_push_article/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+    
+    
+      
+        <title>Full Article - GitHub Auto Push Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/css/style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#automate-your-github-workflow-from-scratch-push-any-project-with-a-single-script-even-create-repos-automatically" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="GitHub Auto Push Docs" class="md-header__button md-logo" aria-label="GitHub Auto Push Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GitHub Auto Push Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Full Article
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="GitHub Auto Push Docs" class="md-nav__button md-logo" aria-label="GitHub Auto Push Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    GitHub Auto Push Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Full Article
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Full Article
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features-of-the-final-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧰 Features of the Final Script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-project-structure-before-after" class="md-nav__link">
+    <span class="md-ellipsis">
+      🗃️ 1. Project Structure Before &amp; After
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-create-a-env-file-to-store-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 2. Create a .env File to Store Credentials
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-install-required-packages" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 3. Install Required Packages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-the-ultimate-push_to_githubpy-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 4. The Ultimate push_to_github.py Script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#done-you-now-have-a-fully-automated-github-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎉 Done! You Now Have a Fully Automated GitHub Pipeline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bonus-ideas-to-extend" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Bonus Ideas to Extend
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-thoughts" class="md-nav__link">
+    <span class="md-ellipsis">
+      💬 Final Thoughts
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features-of-the-final-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧰 Features of the Final Script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-project-structure-before-after" class="md-nav__link">
+    <span class="md-ellipsis">
+      🗃️ 1. Project Structure Before &amp; After
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-create-a-env-file-to-store-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 2. Create a .env File to Store Credentials
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-install-required-packages" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 3. Install Required Packages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-the-ultimate-push_to_githubpy-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 4. The Ultimate push_to_github.py Script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#done-you-now-have-a-fully-automated-github-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎉 Done! You Now Have a Fully Automated GitHub Pipeline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bonus-ideas-to-extend" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Bonus Ideas to Extend
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-thoughts" class="md-nav__link">
+    <span class="md-ellipsis">
+      💬 Final Thoughts
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="automate-your-github-workflow-from-scratch-push-any-project-with-a-single-script-even-create-repos-automatically">🧠 Automate Your GitHub Workflow from Scratch: Push Any Project with a Single Script (Even Create Repos Automatically!)<a class="headerlink" href="#automate-your-github-workflow-from-scratch-push-any-project-with-a-single-script-even-create-repos-automatically" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>Tired of manually setting up GitHub repos, dragging files into folders, and fixing annoying Git errors? What if I told you you could automate everything—from organizing your files to creating a new GitHub repo—using just one Python script?</p>
+</blockquote>
+<p>In this tutorial, we’ll build a <strong>robust, reusable <code>push_to_github.py</code> script</strong> that does all of this and more.</p>
+<hr />
+<h2 id="features-of-the-final-script">🧰 Features of the Final Script<a class="headerlink" href="#features-of-the-final-script" title="Permanent link">&para;</a></h2>
+<p>✅ Automatically organizes files into a project folder<br />
+✅ Loads your GitHub credentials securely from <code>.env</code><br />
+✅ Creates <code>.gitignore</code>, <code>requirements.txt</code>, and <code>README.md</code><br />
+✅ Initializes Git and pushes to GitHub (including history merging)<br />
+✅ Creates a GitHub repo using GitHub’s API<br />
+✅ Handles errors gracefully with helpful logs<br />
+✅ Works with any Python project — even Jupyter notebooks!</p>
+<hr />
+<h2 id="1-project-structure-before-after">🗃️ 1. Project Structure Before &amp; After<a class="headerlink" href="#1-project-structure-before-after" title="Permanent link">&para;</a></h2>
+<p><strong>Before:</strong></p>
+<div class="codehilite"><pre><span></span><code>/content
+├── diabetes_prediction.ipynb
+├── diabetes.csv
+├── push_to_github.py
+</code></pre></div>
+
+<p><strong>After:</strong></p>
+<div class="codehilite"><pre><span></span><code>/content
+└── diabetes_project
+    ├── diabetes_prediction.ipynb
+    ├── diabetes.csv
+    ├── .gitignore
+    ├── requirements.txt
+    ├── README.md
+    └── push_to_github.py
+</code></pre></div>
+
+<hr />
+<h2 id="2-create-a-env-file-to-store-credentials">🔐 2. Create a <code>.env</code> File to Store Credentials<a class="headerlink" href="#2-create-a-env-file-to-store-credentials" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><code><span class="n">GITHUB_USERNAME</span><span class="o">=</span><span class="n">Happymana3</span>
+<span class="n">GITHUB_EMAIL</span><span class="o">=</span><span class="n">your_email</span><span class="nv">@example</span><span class="p">.</span><span class="n">com</span>
+<span class="n">GITHUB_TOKEN</span><span class="o">=</span><span class="n">ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span>
+<span class="n">REPO_NAME</span><span class="o">=</span><span class="n">diabetes_prediction</span>
+<span class="n">PROJECT_FOLDER</span><span class="o">=</span><span class="n">diabetes_project</span>
+</code></pre></div>
+
+<blockquote>
+<p>Never share this file or push it to GitHub!</p>
+</blockquote>
+<hr />
+<h2 id="3-install-required-packages">📦 3. Install Required Packages<a class="headerlink" href="#3-install-required-packages" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>python-dotenv<span class="w"> </span>requests
+</code></pre></div>
+
+<hr />
+<h2 id="4-the-ultimate-push_to_githubpy-script">🧠 4. The Ultimate <code>push_to_github.py</code> Script<a class="headerlink" href="#4-the-ultimate-push_to_githubpy-script" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><code><span class="c1"># (Script inserted here)</span>
+</code></pre></div>
+
+<p><em>(Script content removed for brevity, see project files.)</em></p>
+<hr />
+<h2 id="done-you-now-have-a-fully-automated-github-pipeline">🎉 Done! You Now Have a Fully Automated GitHub Pipeline<a class="headerlink" href="#done-you-now-have-a-fully-automated-github-pipeline" title="Permanent link">&para;</a></h2>
+<p>From this point forward, just drop this script into any new project and run:</p>
+<div class="codehilite"><pre><span></span><code>python<span class="w"> </span>push_to_github.py
+</code></pre></div>
+
+<p>Boom 💥—you’re live on GitHub with all best practices in place.</p>
+<hr />
+<h2 id="bonus-ideas-to-extend">🧪 Bonus Ideas to Extend<a class="headerlink" href="#bonus-ideas-to-extend" title="Permanent link">&para;</a></h2>
+<ul>
+<li>🌐 Auto-deploy with GitHub Pages or Streamlit</li>
+<li>🧪 Run unit tests before push</li>
+<li>📊 Auto-generate markdown reports</li>
+<li>🗃️ Archive previous versions with Git tags</li>
+</ul>
+<hr />
+<h2 id="final-thoughts">💬 Final Thoughts<a class="headerlink" href="#final-thoughts" title="Permanent link">&para;</a></h2>
+<p>This little automation project started with a simple goal: make GitHub pushing easier. But as you can see, it can scale into a full-blown CI-lite solution.</p>
+<p><strong>One script. One command. Complete version control peace of mind.</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
